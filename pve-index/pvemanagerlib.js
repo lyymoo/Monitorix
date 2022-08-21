@@ -36752,10 +36752,10 @@ Ext.define('PVE.dc.UserEdit', {
         var realm;
 
         if (me.isCreate) {
-            url = './api2/extjs/access/users';
+            url = '/pve/api2/extjs/access/users';
             method = 'POST';
         } else {
-            url = './api2/extjs/access/users/' + encodeURIComponent(me.userid);
+            url = '/pve/api2/extjs/access/users/' + encodeURIComponent(me.userid);
             method = 'PUT';
 	}
 
