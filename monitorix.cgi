@@ -675,7 +675,7 @@ if(!$silent) {
 		print("  </center>\n");
 		print("<!-- footer begins -->\n");
 		print("  <p class='text-copyright'>\n");
-		print("  <a href='https://www.monitorix.org'><img src='" . $config{url} . "/" . $config{logo_bottom} . "' border='0'></a>\n");
+		print("  <a href='" . $config{logo_top_url} . "'><img src='" . $config{url} . "/" . $config{logo_bottom} . "' border='0'></a>\n");
 		print("  <br>\n");
 		print("Copyright &copy; 2005-2022 Jordi Sanfeliu\n");
 	}
